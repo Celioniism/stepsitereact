@@ -1,0 +1,133 @@
+.word-wrap {
+  text-align: justify;
+}
+
+.word-wrap td {
+  word-wrap: break-word;
+}
+
+.CalendarBox {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.divisor {
+  border-right: 1px solid #eeeeef;
+}
+
+.p {
+  font-size: 2rem;
+}
+
+.scroll {
+  background-color: #252a32;
+  overflow-y: auto;
+}
+
+.background {
+  background-color: rgb(8, 8, 8);
+}
+
+:host {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list {
+  max-width: 1710px;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: 0px;
+}
+
+.linear-background {
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #30363f 8%, #444b58 18%, #30363f 33%);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+li.current {
+  background: #000000 !important;
+}
+
+.PrevNextBox {
+  height: 92%;
+  width: 49.2%;
+  position: absolute;
+
+  z-index: 3;
+}
+
+.btnCustBack {
+  max-width: 100px;
+  min-width: 50px;
+  width: 100%;
+  transform: translateY(-10%);
+}
+
+.btnCust {
+  max-width: 100px;
+  min-width: 50px;
+  width: 100%;
+  transform: translateY(-10%);
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: #a8a8a8;
+  animation: buttonHoverB 0.5s ease-in-out forwards;
+}
+
+.btnCust:hover {
+  animation: buttonHover 0.5s ease-in-out forwards;
+}
+
+@keyframes buttonHover {
+  0% {
+    border-color: #a8a8a8;
+    background-color: #eeeeef;
+  }
+  100% {
+    border-color: #dadada;
+    background-color: #c3c3c3;
+  }
+}
+
+@keyframes buttonHoverB {
+  0% {
+    border-color: #dadada;
+    background-color: #c3c3c3;
+  }
+  100% {
+    border-color: #a8a8a8;
+    background-color: #eeeeef;
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -100vw 0;
+  }
+
+  100% {
+    background-position: 100vw 0;
+  }
+}

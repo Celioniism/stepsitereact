@@ -9,7 +9,7 @@
 }
 
 .read {
-  background-image: url("../assets/Images/Read.png");
+  background-image: url("../../assets/Images/Read.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -23,7 +23,7 @@
 }
 
 .shop {
-  background-image: url("../assets/Images/Shop.png");
+  background-image: url("../../assets/Images/Shop.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -40,7 +40,7 @@
   box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25) !important;
 }
 .more {
-  background-image: url("../assets/Images/More.png");
+  background-image: url("../../assets/Images/More.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -73,7 +73,7 @@
 }
 
 .readM {
-  background-image: url("../assets/Images/Read.png");
+  background-image: url("../../assets/Images/Read.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -83,7 +83,7 @@
 }
 
 .shopM {
-  background-image: url("../assets/Images/Shop.png");
+  background-image: url("../../assets/Images/Shop.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -93,7 +93,7 @@
 }
 
 .moreM {
-  background-image: url("../assets/Images/More.png");
+  background-image: url("../../assets/Images/More.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -104,7 +104,7 @@
 }
 
 .bannerTopHome {
-  background-image: url("../assets/Images/websitebannerproto.png");
+  background-image: url("../../assets/Images/websitebannerproto.png");
   background-position: center;
   background-size: cover;
   min-width: 100vw;

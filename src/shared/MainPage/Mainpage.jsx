@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useWindowService } from "./WindowServiceContext"; // Import the hook
+import { useWindowService } from "../WindowServiceContext"; // Import the hook
 
 import "./Mainpage.css";
 
